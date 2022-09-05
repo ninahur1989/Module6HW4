@@ -46,7 +46,7 @@ namespace M6HW3RazorPages.Controllers
                 return View(provider.GetList());
             }
 
-            return RedirectToAction("Error");
+            return RedirectToAction("Error", "Home");
 
         }
 
