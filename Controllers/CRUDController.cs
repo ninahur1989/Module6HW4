@@ -1,13 +1,13 @@
-﻿using CRUDController.Data;
-using CRUDController.Interfaces;
+﻿using M6HW3RazorPages.Data;
+using M6HW3RazorPages.Interfaces;
 using M6HW3RazorPages.Models;
 using Microsoft.AspNetCore.Mvc;
-using Models;
+using M6HW3RazorPages.Models;
 using System.Diagnostics;
 
 namespace M6HW3RazorPages.Controllers
 {
-    public class CRUDController : Controller, ICRUD
+    public class UserController : Controller, IUser
     {
         public Provider provider = new Provider();
         private readonly Random _random = new Random();

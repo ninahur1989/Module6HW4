@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace CRUDController.Interfaces
+namespace M6HW3RazorPages.Interfaces
 {
-    public interface ICRUD
+    public interface IUser
     {
         public ViewResult Create();
         public ViewResult List();

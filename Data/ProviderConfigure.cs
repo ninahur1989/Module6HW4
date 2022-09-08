@@ -1,4 +1,4 @@
-﻿namespace CRUDController.Data
+﻿namespace M6HW3RazorPages.Data
 {
     using Models;
     using System.Collections.Generic;

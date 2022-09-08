@@ -1,8 +1,8 @@
-﻿using Models;
+﻿using M6HW3RazorPages.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CRUDController.Data
+namespace M6HW3RazorPages.Data
 {
     public sealed class Provider
     {

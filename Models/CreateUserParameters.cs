@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Models
+namespace M6HW3RazorPages.Models
 {
     public sealed class CreateUserParameters
     {
